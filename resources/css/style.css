@@ -3,9 +3,12 @@ body {
   text-align: center;
 }
 
-.header {
-  background-image: url("./resources/pics/the-flatiron-building.png");
+.header .strip{
+  background-image: image("./resources/pics/the-flatiron-building.png");
   color: white;
+}
+
+.header {
   font-size: 18px;
 }
 
@@ -27,11 +30,6 @@ h3 {
 
 p {
   font-size: 14px;
-}
-
-.strip {
-  background-image: url("./resources/pics/the-flatiron-building.png");
-  color: white;
 }
 
 .footer {
